@@ -19,7 +19,7 @@ public class imc {
 
 		
 		System.out.println(imc);
-	
+	;
 		
 	
 		
