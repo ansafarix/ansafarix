@@ -1,4 +1,4 @@
-package controle;
+package Exercicio;
 
 import java.util.Scanner;
 
