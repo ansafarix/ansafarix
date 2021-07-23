@@ -6,6 +6,10 @@ public class Usuario {
 	String email;
 	
 	
+	public Usuario(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public boolean equals(Object objeto) {
 		
 		

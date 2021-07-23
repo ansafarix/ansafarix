@@ -3,10 +3,11 @@ package colecoes;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.sun.tools.classfile.Opcode.Set;
+
 
 public class ConjuntoBaguncado {
 	
+	@SuppressWarnings("unused")
 	private static boolean add;
 
 	@SuppressWarnings({"rawtypes", "unchecked"})
@@ -40,6 +41,8 @@ public class ConjuntoBaguncado {
 		
 		//conjunto.addAll(nums); Uniao entre dois conjuntos
 		conjunto.retainAll(nums);
+		System.out.println(conjunto);
+		conjunto.clear();
 		System.out.println(conjunto);
 		
 	}
